@@ -1,0 +1,54 @@
+
+#cumpus-cards {
+    background-color: black;
+    color: #007bff;
+    padding-bottom: 70px;
+  }
+  .teacher-card-img {
+   position: relative;
+  }
+  .card-6 {
+    width: 25vw;
+    z-index: 4;
+  }
+
+  .card-5, .card-7 {
+    top: -8%;
+    width: calc(25vw*0.84);
+    opacity: 0.8;
+    z-index: 3;
+  }
+
+  .card-5 {
+    left: 30px;
+  }
+
+  .card-7 {
+    left: -30px;
+  }
+
+  .card-4, .card-1 {
+    top: 100px;
+    width: 13vw;
+    opacity: 0.5;
+    z-index: 2;
+  }
+  .card-4 {
+    left: 50px;
+  }
+  .card-1 {
+    left: -50px;
+  }
+
+  .card-2, .card-3 {
+    top: 50px;
+    width: 6vw;
+    opacity: 0.3;
+    z-index: 1;
+  }
+  .card-3 {
+    left: 10px;
+  }
+  .card-2 {
+    left: -10px;
+  }
