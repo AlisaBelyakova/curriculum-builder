@@ -1,11 +1,9 @@
 /* @media screen and (max-width: 1800px) { */
     #for-whom {
-        background-color: yellowgreen;
-    }
-
-    #for-whom {
+        /* background-color: rgb(255, 255, 204); */
+        /* margin-top: -100px; */
         height: calc(100vh - 56px);
-        min-height: 1100px;
+        /* min-height: 1100px; */
         width: 100vw;
         display: flex;
         flex-direction: row;
@@ -13,27 +11,37 @@
     }
 
     .for-whom-item {
-        width: 50vw;
         min-width: 324px;
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .item-3 {
+        width: 100vw;
         flex-direction: row;
+        justify-content: space-evenly;
+        align-content: space-evenly;
     }
 
     .item-1 {
+        width: 50vw;
+        flex-direction: column;
         justify-content: space-evenly;
         align-content: space-evenly;
-        background-color: #3E78FE;
+        background-color: #ffc100;
     }
+
     .item-2 {
-        justify-content: space-evenly;
-        align-content: space-evenly;
+        width: 50vw;
+        flex-direction: column;
+        justify-content: space-between;
+        /* align-content: space-evenly; */
     }
 
     .item-2 p {
         padding: 0 15%;
         text-align: left;
-        font-size: 26px;
+        font-size: 20px;
         font-weight: lighter;
         line-height: 2;
         color: rgb(46, 46, 46);
@@ -41,14 +49,14 @@
 
     .card {
         box-shadow: 5px 5px 18px #888888;
-        width:7vw;
-        height: 7vw;
+        width:12vw;
+        height: 12vw;
+        max-height: 12vw;
         min-width: 80px;
         background-color: #ffc100;
         min-height: 80px;
-        max-height: 7vw;
 
-        font-size: 18px;
+        font-size: 26px;
         font-weight: 400;
         color: black;
         border-radius: 50%;
@@ -70,25 +78,25 @@
     }
 
     .card #p-1 {
-        min-width: 300px;
-        top: -30%;
-        left: -10%;
+        min-width: 400px;
+        top: -20%;
+        left: -20%;
     }
 
     .card #p-2 {
-        min-width: 250px;
+        min-width: 400px;
         top: 15%;
         left: -30%;
     }
 
     .card #p-3 {
-        min-width: 200px;
+        min-width: 350px;
         top: -20%;
         left: -20%;
     }
 
     .highlight {
-        background-color: white;
+        /* background-color: white; */
     }
 
     .for-whom-list {
@@ -100,6 +108,7 @@
         flex-wrap: wrap;
         width: 50vw;
         justify-content: space-evenly;
+        margin-bottom: 5%;
     }
 
     .for-whom-option {
@@ -122,7 +131,7 @@
         display: flex;
         text-align: left;
         align-items: center;
-        justify-content: space-evenly;
+        /* justify-content: space-evenly; */
     }
 
     #iframe {
@@ -131,287 +140,180 @@
         height:calc(var(--iframe-size-base)/1.7);
         max-width: 900px;
         max-height: 500px;
-        display: block;
-        position: relative;
-        left: -2.5vw;
         outline-width: 0;
     }
 /* } */
 
 @media screen and (max-width: 1500px) {
     #for-whom {
-        background-color: goldenrod;
+       background-color: yellow;
     }
 
-    .item-2 p {
+    .item-3 {
+        padding: 5% 0;
+    }
+
+    .card {
         font-size: 22px;
+    }
+
+    .card #p-1 {
+        min-width: 300px;
+        top: -20%;
+        left: -20%;
+    }
+
+    .card #p-2 {
+        min-width: 300px;
+        top: 15%;
+        left: -30%;
+    }
+
+    .card #p-3 {
+        min-width:250px;
+        top: -20%;
+        left: -20%;
     }
 
     .for-whom-option {
         width: 150px;
+        height: 80px;
+        font-size: 17px;
+    }
+
+    .item-2 p {
         font-size: 18px;
-        font-weight: 300;
     }
-
-    .card {
-        width:10vw;
-        height: 10vw;
-        font-size: 16px;
-        max-height: 10vw;
-    }
-
-    .card p {
-        position: relative;
-        text-align: left;
-    }
-
-    .card #p-1 {
-        min-width: 200px;
-        top: -20%;
-        left: 30%;
-    }
-
-    .card #p-2 {
-        min-width: 200px;
-        top: 20%;
-        left: -5%;
-    }
-
-    .card #p-3 {
-        min-width: 180px;
-        top: -10%;
-        left: -10%;
-    }
-
 }
 
 @media screen and (max-width: 1200px) {
     #for-whom {
-        background-color: aquamarine;
-    }
-    .for-whom-list {
-        flex-direction: column;
-        margin: 0;
-        padding: 0 80px;
-        align-content: flex-start;
+       background-color: rgb(246, 255, 246);
     }
 
-    .for-whom-option {
-        width: 220px;
-        font-size: 20px;
-        margin: -4px 0;
+    .item-3 {
+        padding: 5% 0;
     }
 
     .card {
-        width:14vw;
-        height: 14vw;
-        max-height: 14vw;
-        font-size: 18px;
+        font-size: 20px;
+        width:15vw;
+        height: 15vw;
+        max-height: 15vw;
     }
 
     .card #p-1 {
-        min-width: 200px;
+        min-width: 300px;
         top: -30%;
-        left: -10%;
-        z-index: 2;
+        left: -20%;
+    }
+
+    .card #p-2 {
+        min-width: 300px;
+        top: 40%;
+        left: -50%;
+    }
+
+    .card #p-3 {
+        min-width:250px;
+        top: -20%;
+        left: -40%;
+    }
+
+    .item-2 p {
+        font-size: 15px;
+    }
+
+    .for-whom-list {
+        padding: 0 25px;
+    }
+
+    .for-whom-option {
+        width: 130px;
+        height: 70px;
+        font-size: 14px;
+        padding: 5px 16px 5px 16px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #for-whom {
+       background-color: pink;
+       flex-direction: column;
+       height: fit-content;
+    }
+
+    .item-3 {
+        order: 1;
+        padding: 5% 0;
+        width:100vw;
+    }
+
+    .item-1 {
+        order: 2;
+        width:100vw;
+    }
+    .item-2 {
+        order: 3;
+        width:100vw;
+    }
+
+    .card {
+        font-size: 16px;
+        width:17vw;
+        height: 17vw;
+        max-height: 17vw;
+    }
+
+    .card #p-1 {
+        min-width: 220px;
+        top: -20%;
+        left: -5%;
     }
 
     .card #p-2 {
         min-width: 200px;
         top: 40%;
+        left: -50%;
+    }
+
+    .card #p-3 {
+        min-width:200px;
+        top: -20%;
         left: -40%;
     }
 
-    .card #p-3 {
-        min-width: 200px;
-        top: -20%;
-        left: -20%;
-    }
-
-    #iframe {
-        --iframe-size-base: 70vw;
-        border: 50px solid #3E78FE;
-    }
-}
-
-@media screen and (max-width: 850px) {
-    #for-whom {
-        background-color: pink;
-    }
-
-    .item-1 {
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        padding-top: 50px;
-    }
-    .card {
-        width:20vw;
-        height: 20vw;
-        max-height: 20vw;
-        font-size: 16px;
-        margin: 20px 0;
-    }
-
-    .card #p-1 {
-        min-width: 150px;
-        top: -10%;
-        left: -10%;
-    }
-
-    .card #p-2 {
-        min-width: 200px;
-        top: -10%;
-        left: -10%;
-    }
-
-    .card #p-3 {
-        min-width: 200px;
-        top: -10%;
-        left: -10%;
-    }
-
-    .item-2 {
-        justify-content: flex-start;
-        align-content: flex-start;
-        padding-top: 50px;
-        padding-left: 0;
-    }
-
     .item-2 p {
-        font-size: 16px;
-        padding-top:30px;
+        font-size: 13px;
     }
 
     .for-whom-list {
-        padding: 10px 50px;
-        align-content: flex-start;
+        display: flex;
         flex-direction: column;
+        align-content: flex-start;
+        margin: 0;
+        padding-bottom: 0;
+        padding-left: 15%;
     }
 
     .for-whom-option {
-        width: 200px;
-        height: 50px;
-        font-size: 18px;
-        font-weight: 300;
+        width: 150px;
+        height: 70px;
+        font-size: 17px;
+        margin: 0;
     }
-    #iframe {
-        --iframe-size-base: 70vw;
-        border: 0;
-        width: 80vw;
-        height: 45vw;
-        position: relative;
-        left:-50%;
-        top: 5%;
-    }
-}
 
-@media screen and (max-width:700px) {
     #iframe {
-        left:-50%;
-        top: 10%;
+        --iframe-size-base: 90vw;
+        width: var(--iframe-size-base);
+        height:calc(var(--iframe-size-base)/1.7);
+        margin: 5%;
     }
 }
 
 @media screen and (max-width: 650px) {
     #for-whom {
-        background-color: yellow;
-    }
-
-    .for-whom-item {
-        width: 100vw;
-        padding-top: 0;
-        flex-direction: column;
-    }
-
-    .item-1 {
-        width: 100vw;
-        padding: 0;
-        justify-content: space-evenly;
-        align-content: space-evenly;
-        background-color: #3E78FE;
-    }
-
-    .item-2 {
-        width: 100vw;
-        justify-content: space-evenly;
-        align-content: space-evenly;
-    }
-
-    .item-2 p {
-        font-size: 14px;
-    }
-
-
-    .card {
-        width:40vw;
-        height: 40vw;
-        max-height: 40vw;
-        margin: 5vw 0;
-        font-size: 18px;
-        font-weight: 400;
-
-        justify-content: space-evenly;
-        text-decoration: none;
-    }
-
-    .card p {
-        position: relative;
-        text-align: left;
-    }
-
-    .card #p-1 {
-        min-width: 200px;
-        top: 0;
-        left: -20%;
-    }
-
-    .card #p-2 {
-        min-width: 200px;
-        top: 0;
-        left: -20%;
-    }
-
-    .card #p-3 {
-        min-width: 200px;
-        top: 0;
-        left: -20%;
-    }
-
-
-
-    .for-whom-list {
-        margin: 0;
-        padding: 0;
-        width: 100vw;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-
-        align-content: center;
-        justify-content: center;
-        margin-bottom: 20px;
-    }
-
-    .for-whom-option {
-        width: 100px;
-        height: 50px;
-        font-size: 12px;
-        margin: 0 5px;
-    }
-
-    #iframe {
-        order: -1;
-        margin: 0;
-        --iframe-size-base: 100vw;
-        width: var(--iframe-size-base);
-        height:calc(var(--iframe-size-base)/1.7);
-
-        position: relative;
-        left: 0;
-        top: 2%;
-        outline-width: 0;
+       background-color: violet;
     }
 }
-
-

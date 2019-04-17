@@ -57,7 +57,7 @@ class CaruselSteps extends Component {
     return (
       <div>
         <div className="mySlides carusel-container">
-              {/* <p className="carusel-number">1</p> */}
+              <p className="carusel-number">1</p>
               <div className="carusel-flex-section">
                 <span className="carusel-flex-item stripe">
                   <img src="./images/carusel-steps/create-1.png" className="flex-img"/>
@@ -69,7 +69,7 @@ class CaruselSteps extends Component {
               </div>
           </div>
         <div className="mySlides carusel-container">
-              {/* <p className="carusel-number">2</p> */}
+              <p className="carusel-number">2</p>
               <div className="carusel-flex-section">
                 <span className="carusel-flex-item stripe">
                   <img src="./images/carusel-steps/conduct-1.png" className="flex-img"/>
@@ -82,7 +82,7 @@ class CaruselSteps extends Component {
           </div>
 
           <div className="mySlides carusel-container">
-              {/* <p className="carusel-number">3</p> */}
+              <p className="carusel-number">3</p>
               <div className="carusel-flex-section">
                 <span className="carusel-flex-item stripe">
                   <img src="./images/carusel-steps/feedback-1.png" className="flex-img"/>
@@ -95,7 +95,7 @@ class CaruselSteps extends Component {
           </div>
 
           <div className="mySlides carusel-container">
-              {/* <p className="carusel-number">4</p> */}
+              <p className="carusel-number">4</p>
               <div className="carusel-flex-section">
                 <span className="carusel-flex-item stripe">
                   <img src="./images/carusel-steps/share-1.png" className="flex-img"/>

@@ -3,6 +3,8 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   width: 100vw;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .section-title {
