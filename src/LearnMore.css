@@ -1,0 +1,101 @@
+/* @media screen and (max-width: 1800px) { */
+    #learn-more {
+        /* background-color: rgb(255, 255, 204); */
+        /* margin-top: -100px; */
+        height: calc(100vh - 56px);
+        /* min-height: 1100px; */
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .learn-more-item {
+        width: 50%;
+        min-width: 324px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .item-3 {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content: flex-start;
+        padding-left: 5%;
+    }
+
+    .item-1 {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content: flex-start;
+        background-color: #ffc100;
+    }
+
+    .card {
+        box-shadow: 5px 5px 18px #888888;
+        width:12vw;
+        height: 12vw;
+        max-height: 12vw;
+        min-width: 200px;
+        background-color: #ffc100;
+        min-height: 80px;
+
+        font-size: 2vw;
+        font-weight: 500;
+        color: black;
+        border-radius: 50%;
+        font-family: 'Roboto Mono', monospace;
+        justify-content: space-evenly;
+        margin: 0 3vw;
+        text-decoration: none;
+    }
+
+    .card:hover {
+        text-decoration: none;
+        transform: translateX(5px) translateY(-5px);
+        transition: 0.1s ease-out;
+        color: #007bff;
+    }
+
+    .card p {
+        position: relative;
+        text-align: left;
+        width: 30vw;
+        min-width: 400px;
+        top: -10%;
+        left: 20%;
+    }
+/*
+    .card #p-1 {
+        min-width: 400px;
+        top: -10%;
+        left: 20%;
+    }
+
+    .card #p-2 {
+        min-width: 400px;
+        top: 15%;
+        left: -30%;
+    }
+
+    .card #p-3 {
+        min-width: 350px;
+        top: -20%;
+        left: -20%;
+    } */
+
+    .highlight {
+        /* background-color: rgba(255, 255, 255, 0.75); */
+    }
+
+
+    #iframe {
+        --iframe-size-base: 45vw;
+        width: var(--iframe-size-base);
+        height:calc(var(--iframe-size-base)/1.7);
+        max-width: 900px;
+        max-height: 500px;
+        outline-width: 0;
+        left: -2.5vw;
+    }
+/* } */

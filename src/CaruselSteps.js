@@ -55,7 +55,7 @@ class CaruselSteps extends Component {
 
   render() {
     return (
-      <div>
+      <div id="steps">
         <div className="mySlides carusel-container">
               <p className="carusel-number">1</p>
               <div className="carusel-flex-section">

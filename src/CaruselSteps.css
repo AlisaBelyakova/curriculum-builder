@@ -1,3 +1,7 @@
+#steps {
+  height:  calc(100vh - 56px);
+  /* min-height: fit-content; */
+}
 
 .carusel-container {
     height:  calc(100vh - 56px);
@@ -40,6 +44,7 @@
         width: 350px;
     }
   }
+
 .stripe {
   background-color: #ffc100;
 }

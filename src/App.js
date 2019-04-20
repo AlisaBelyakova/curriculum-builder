@@ -3,9 +3,10 @@ import './App.css';
 import CaruselSteps from "./CaruselSteps";
 import Navbar from "./Navbar";
 import Cover from "./Cover";
-import ForWhom from "./ForWhom";
+import LearnMore from "./LearnMore";
 import CaruselTeachers from './CaruselTeachers';
-import DesingLessonsButton from './DesingLessonsButton';
+import Footer from './Footer';
+import VideoMainPage from './VideoMainPage';
 
 class App extends Component {
   render() {
@@ -14,8 +15,10 @@ class App extends Component {
        <Navbar />
        <Cover />
        <CaruselSteps />
-        <ForWhom />
+        <LearnMore />
+        <VideoMainPage />
         <CaruselTeachers />
+        <Footer />
       </div>
     );
   }
