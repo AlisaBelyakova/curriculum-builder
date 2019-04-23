@@ -1,24 +1,29 @@
 import React, { Component } from 'react';
 import './App.css';
-import CaruselSteps from "./CaruselSteps";
-import Navbar from "./Navbar";
-import Cover from "./Cover";
-import LearnMore from "./LearnMore";
-import CaruselTeachers from './CaruselTeachers';
-import Footer from './Footer';
-import VideoMainPage from './VideoMainPage';
+import CaruselSteps from "./components/CaruselSteps";
+import Navbar from "./components/Navbar";
+import Cover from "./components/Cover";
+import LearnMore from "./components/LearnMore";
+import CaruselTeachers from './components/CaruselTeachers';
+import Footer from './components/Footer';
+import VideoMainPage from './components/VideoMainPage';
+import Map from './components/map/Map';
+import Builder from './components/BuilderNew';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+
        <Navbar />
        <Cover />
        <CaruselSteps />
         <LearnMore />
-        <VideoMainPage />
         <CaruselTeachers />
+        <VideoMainPage />
         <Footer />
+        {/* <Map /> */}
+        <Builder />
       </div>
     );
   }

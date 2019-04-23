@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './DesingLessonsButton.css';
+import '../styles/DesingLessonsButton.css';
 
 class DesingLessonsButton extends Component {
   render() {

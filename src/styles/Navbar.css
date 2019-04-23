@@ -1,0 +1,27 @@
+.App-header {
+    background-color: #3E78FE;
+    color: #ffc100;
+  }
+
+  .header-item {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  #header-text-capital {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffc100;
+    text-transform: uppercase;
+  }
+
+  .header-text-small {
+    font-size: 8px;
+  }
+
+
+
+  .header-text-subtitle {
+    font-size: 15px;
+    text-transform: uppercase;
+  }

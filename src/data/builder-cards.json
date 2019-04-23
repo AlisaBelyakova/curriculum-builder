@@ -1,0 +1,100 @@
+[
+
+    {
+        "size":[0,1,2,3],
+        "title": {
+            "text":"Set up – select items from our 3D library or plug-in your own",
+             "number":"2"},
+        "subTitles":[
+            "Upload characters",
+            "Upload 360 environments",
+            "Upload props",
+            "Upload public MP4 Files or plug-in your own presentation"
+        ],
+        "source": [
+            ["./images/builder/1.png",
+            "./images/builder/2.png",
+            "./images/builder/3.png"],
+            ["./images/builder/4.png",
+            "./images/builder/5.png",
+            "./images/builder/6.png"],
+            ["./images/builder/7.png",
+            "./images/builder/8.png",
+            "./images/builder/9.png"],
+            ["./images/builder/10.png",
+            "./images/builder/11.png",
+            "./images/builder/12.png"]
+        ]
+    },
+    {
+        "size":[0,1,2,3],
+        "title": {
+            "text":"Set-up - Subject review",
+             "number":"3"},
+        "subTitles":[
+            "Record VR video instructions and explanations",
+            "Record 3d role-play to deliver the subject from different perspectives",
+            "Record Q&A quiz and set research objective",
+            "Combine all of the above into one multi-layered exploration quest"
+        ],
+        "source": [
+            ["./images/builder/13.png",
+            "./images/builder/14.png",
+            "./images/builder/15.png"],
+            ["./images/builder/16.png",
+            "./images/builder/17.png",
+            "./images/builder/18.png"],
+            ["./images/builder/19.png",
+            "./images/builder/20.png",
+            "./images/builder/21.png"],
+            ["./images/builder/22.png",
+            "./images/builder/23.png",
+            "./images/builder/24.png"]
+        ]
+    },
+    {
+        "size":[0,1,2,3,4,5,6],
+        "title": {
+            "text":"Practice and Assessment",
+             "number":"4"},
+        "subTitles":["Challenge participants to complete team building exercise and communicate effectively, collaborate to solve problems, create stories and  art projects together, follow the blueprint and assemble items or parts, research answers to a quiz and come up with additional Q&A, create examples explaining subjects in a role-play improvisation using new vocabulary, make their own quests to challenge peers. "],
+        "source": [
+            [
+                "./images/builder/25.png",
+                "./images/builder/26.png",
+                "./images/builder/27.png"
+            ],
+            [
+                "./images/builder/28.png",
+                "./images/builder/29.png",
+                "./images/builder/30.png"
+            ],
+            [
+                "./images/builder/31.png",
+                "./images/builder/32.png",
+                "./images/builder/33.png"
+            ],
+            [
+                "./images/builder/34.png",
+                "./images/builder/35.png",
+                "./images/builder/36.png"
+            ],
+            [
+                "./images/builder/37.png",
+                "./images/builder/38.png",
+                "./images/builder/39.png"
+            ],
+            [
+                "./images/builder/40.png",
+                "./images/builder/41.png",
+                "./images/builder/42.png"
+            ],
+            [
+                "./images/builder/43.png",
+                "./images/builder/44.png",
+                "./images/builder/45.png"
+            ]
+        ]
+    }
+]
+

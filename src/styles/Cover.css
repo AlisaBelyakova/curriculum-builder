@@ -1,0 +1,148 @@
+
+#first {
+    height: 100vh;
+    padding-top: 56px;
+    /* background-color: #3E78FE; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-around;
+    align-content: space-around; */
+    /* padding: 0 10%; */
+    width: 100vw;
+    overflow: hidden;
+  }
+  #circle-title {
+    position: absolute;
+    left: 40vw;
+    top: 22vh;
+    background-color: #ffc100;
+    width: 20vw;
+    max-width: 200px;
+    height: 20vw;
+    max-height: 200px;
+    border-radius: 50%;
+    box-shadow: 2px 3px 3px grey;
+  }
+
+  #circle-title p {
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    position: relative;
+    left: 60px;
+    padding-top: 20px;
+    /* text-shadow: 2px 3px 3px grey; */
+  }
+  .first-item {
+    /* padding: 10% 0; */
+    width: 50vw;
+    height: 100vh;
+    /* text-align: left; */
+    display: flex;
+    direction: column;
+    flex-wrap: wrap;
+  }
+
+  .first-item-a {
+    /* align-self: flex-start; */
+    background-color: #3E78FE;
+    padding: 3%;
+
+    align-content: space-around;
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+  .first-item-b {
+    padding: 3% 0;
+    /* align-self: flex-end; */
+    font-size: 22px;
+
+    background-color: white;
+    /* padding: 12.5vw; */
+
+    /* text-align: justify; */
+    justify-content: center;
+    align-content: space-around;
+    /* align-items: center; */
+  }
+
+  .header-text-title {
+    font-size: 2.5vw;
+    /* padding: 5px 0; */
+    font-weight: bold;
+    color: white;
+    min-width: 27vw;
+    max-width:27vw;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-self: center; */
+    line-height: 3.5vw;
+    /* text-align: justify; */
+
+    /* font-family: 'Righteous', cursive; */
+    font-family: 'Days One', sans-serif;
+  }
+
+  .title-text-around {
+    font-family: 'Play', sans-serif;
+    color: white;
+    font-size: 18px;
+  }
+
+  .we-do-title {
+    /* min-width: 25vw;
+    max-width:25vw; */
+    font-size: 2.5vw;
+    /* line-height: 250px; */
+    min-width: 100%;
+    font-family: 'Days One', sans-serif;
+    font-weight: bold;
+    align-content: center;
+    padding-left: 12.5vw;
+    /* display: block; */
+    /* justify-self: center; */
+  }
+
+  .what-we-do {
+    min-width: 25vw;
+    max-width:25vw;
+    min-height: 65vh;
+    font-family: 'Play', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    align-content: space-evenly;
+    justify-content: space-around;
+    font-size: 18px;
+  }
+
+  @media screen and (min-width: 300px) {
+
+    /* #cover-container {
+      display: grid;
+      grid-template-rows: 25% 25% 25% 25%;
+      grid-template-columns: 100%;
+    } */
+  }
+
+  @media screen and (min-width: 500px) {
+
+    /* #cover-container {
+      display: grid;
+      grid-template-rows: 50% 50%;
+      grid-template-columns: 50% 50%;
+    } */
+  }
+  @media screen and (min-width: 1000px) {
+
+    /* #cover-container {
+      display: grid;
+      grid-template-rows: 100%;
+      grid-template-columns: auto 29.5% 29.5% auto;
+    }
+    .cover-item {
+      width: 100%;
+    } */
+  }

@@ -1,0 +1,157 @@
+#steps {
+  max-height:  calc(100vh - 56px);
+  /* min-height: fit-content; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+.slide-left {
+  /* position: absolute; */
+  /* transform: translateX(-25vw); */
+  transition: left 0.85s ease;
+}
+
+.carusel-container {
+    position: relative;
+    top: 0;
+    height:  calc(100vh - 56px);
+    min-height: fit-content;
+
+    transition: left 0.85s ease;
+
+    min-width: 100vw;
+    flex-shrink: 0;
+  }
+
+  .carusel-flex-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%;
+    height: 100%;
+    justify-items: center;
+  }
+
+  .carusel-flex-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50vw;
+    justify-items: center;
+    justify-content: space-evenly;
+  }
+
+  .flex-img {
+    width: 600px;
+    max-width: 60vh;
+    min-width: 200px;
+    align-self: flex-end;
+  }
+
+  @media screen and (max-width: 1600px) {
+    .flex-img {
+        width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 1100px) {
+    .flex-img {
+        width: 100%;
+    }
+  }
+
+.stripe {
+  background-color: #ffc100;
+}
+  .flex-text {
+    padding: 0 10%;
+    font-size: 35px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    text-align: left;
+    min-width: 350px;
+  }
+
+  .carusel-number {
+    position: absolute;
+    left: 60%;
+    font-size: 50vh;
+    color: #ffc100;
+    z-index: -1;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+
+  .mobile-conduct {
+    width: 20vw;
+    transform: rotate(-20deg);
+    float: right;
+    margin-right: 10%;
+    position: relative;
+    top: 20%;
+  }
+
+  .share {
+    margin-left: 20px;
+    width: 50px;
+    transform: rotate(180deg)
+  }
+  /* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: relative;
+    top: -50vh;
+    width: auto;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 100px;
+    transition: 0.3s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    line-height: 1;
+    text-shadow: 0 4px white;
+  }
+
+  .next {
+    float: right;
+  }
+  .prev {
+    float: left;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: #ffc100;
+  }
+
+
+/* The dots/bullets/indicators */
+.dots {
+    display: inline-block;
+    position: relative;
+    top: -15vh;
+    left: 55vw;
+}
+
+.dot {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: 0 1.5vw;
+    background-color: #ffc100;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: #007bff;
+  }
+
+  .slide-controllers {
+    width: 100vw;
+    position: absolute;
+    top: 200vh;
+  }
